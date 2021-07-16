@@ -1,1 +1,1 @@
-## [CV]{https://godtanatos.github.io/rsschool-cv/cv}
+## [CV](https://godtanatos.github.io/rsschool-cv/cv)
