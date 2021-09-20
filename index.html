@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <title>My CV resume</title>
 </head>
@@ -62,7 +65,7 @@
                         </li>
                         <li>
                             <div class="skill_name">Javascript</div>
-                            <div class="skill_progress">
+                            <div class="skill_progress hidden">
                                 <span style="width: 10%;"></span>
                             </div>
                             <div class="skill_per">10%</div>
@@ -92,16 +95,20 @@
                     </ul>
                 </div>
             </div>
-
-
         </section>
 
         <section class="resume_right">
             <div class="resume_item resume_about">
                 <div class="title">
                     <p class="bold">About me</p>
+                    <div class="btn">
+                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
                 </div>
-                <p>In my current job, I have to constantly work in an application written using HTML, CSS and
+
+                <p class="description">In my current job, I have to constantly work in an application written using
+                    HTML, CSS and
                     Javascript. I have to work in this application for 12 hours a day. This application was written by
                     people who are far from the main activity of the customs and from the areas of work where this
                     program is used.This program often lacked functionality that could make my work easier. The
@@ -109,6 +116,7 @@
                     studied Javascript, HTML, CSS, added functions for myself in the current program window, which made
                     my work easier. Then I found myself enjoying it, it's interesting. In my free time from work I study
                     Javascript, HTML, CSS, PHP, java, in order to connect further work with this field of activity.</p>
+
             </div>
             <div class="title">
                 <p class="bold">Example code</p>
@@ -153,7 +161,6 @@
 
         </section>
 
-
     </main>
     <footer>
         <div class="logo">
@@ -164,11 +171,11 @@
 
         <div>
             <a href="https://github.com/godtanatos/"> <i class="fab fa-github"></i></a>
-            <h6>© 2021</h6>
+
         </div>
-
-
+        <h6>© 2021</h6>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
