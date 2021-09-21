@@ -15,3 +15,9 @@ elBlock.addEventListener("transitionend", () => {
         elBlock.style.height = "auto"
     }
 });
+window.onresize = function (event) {
+    if (event.target.innerWidth > 767) {
+        elBlock.style.height = "";
+        elToggle.classList.value = 'btn';
+    }
+};
